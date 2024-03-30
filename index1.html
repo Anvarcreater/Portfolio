@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="index1.css">
+    <link rel="icon" href="profile.jpg">
+    <title>Anvar Portfolio</title>
+</head>
+<body>
+    <div class="navbar">
+        <h2 class="port navs">Portfolio</h2>
+        <div class="nav navs">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div><br><br><br>
+    <div class="info" id="#home">
+        <div class="detail">
+            <h1 class="det">Hello! I'm <span style="color: cyan;font-family: Arial, Helvetica, sans-serif;"> Anvar Thaseem A </span></h1>
+            <h2 class="det">I'm an Aspiring <span style="color: cyan;">Frontend developer</span></h2>
+           <div class="deta">
+            <p class="ads"> My journey in the world of programming began with a keen interest in frontend development, 
+                which has grown into a deep passion for creating engaging and user-friendly interfaces.</p><br>
+           </div>
+            <div class="icons">
+                <a href="#"><i class="fa fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="detail">
+            <img src="profile.jpg" alt="img" class="pro-img"/>
+        </div>
+    </div><br><br><br><br>
+    <div class="abouts" id="about">
+        <h1 class="ab ">About Me</h1>
+        <div class="ab-con">
+                <div class="abou">
+                    <p>I'm a passionate and dedicated third-year BE/CSE student at Gojan School of Business And Technology College in Chennai. 
+                        I'm an Aspiring Software Engineer and I wish to start my career in IT industry as a <span style="color:cyan;">Frontend Developer</span>. I'm a quick learner and easily
+                        adaptive to any Environment. and I interest to learn new Technologies and Updating my skills.
+                    </p>
+                </div>
+                <div class="abou">
+                    <p>I am seeking to kickstart my career with a internship opportunities where i can apply my skills to contribute
+                        impactfull projects.
+                    </p>
+                </div>
+        </div>
+    </div><br><br><br>
+    <div class="skills" id="skills">
+        <h1 class="ab">Skills</h1>
+        <div class="cards">
+            <div class="card">
+                <h2><i class="fa fa-brands fa-html5"></i><span style="color: white;">Html5</span></h2>
+            </div>
+            <div class="card">
+                <h2><i class="fa fa-brands fa-css3"></i><span style="color: white;">Css3</span></h2>
+            </div>
+            <div class="card">
+                <h2><i class="fa fa-brands fa-bootstrap"></i><span style="color: white;">Bootstrap-4</span></h2>
+            </div>
+            <div class="card">
+                <h2><i class="fa fa-brands fa-js"></i><span style="color: white;">javascript</span></h2>
+            </div>
+            <div class="card">
+                <h2><i class="fa fa-brands fa-react"></i><span style="color: white;">React js</span></h2>
+            </div>
+            <div class="card">
+                <h2><i class="fa fa-brands fa-python"></i><span style="color: white;">Django</span></h2>
+            </div>
+            <div class="card">
+                <h2><i class="fa fa-database"></i><span style="color: white;">Mysql</span></h2>
+            </div>
+            <div class="card">
+                <h2><i class="fa fa-database"></i><span style="color: white;">Mongodb</span></h2>
+            </div>
+        </div>
+    </div><br><br><br><br><br><br><br>
+    <h1 class="ab">Contact</h1>
+    <div class="contact" id="contact">
+        <h3 class="con"><span style="color:cyan;">Email:</span>anvarthaseemcse@gmail.com</h3>
+        <h3 class="con"><span style="color:cyan;">Mobile:</span>:9345593944</h3>
+    </div>
+    <script>
+         window.addEventListener('load',()=>{
+            var navs=document.querySelectorAll('.navs');
+            navs.forEach(element=>{
+                element.classList.add('na');
+            })
+            var details=document.querySelectorAll('.detail');
+            details.forEach(elem=>{
+                elem.classList.add('sh');
+            })
+        })
+    </script>
+</body>
+</html>
